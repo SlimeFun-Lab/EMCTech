@@ -85,7 +85,7 @@ public class EmcItems {
             EmcStacks.UNORTHODOX_COAL_DUST,
             RecipeType.ORE_CRUSHER,
             new ItemStack[]{
-                EmcStacks.UNORTHODOX_COAL
+                EmcStacks.UNORTHODOX_COAL.asOne()
             }
         );
 
@@ -94,7 +94,7 @@ public class EmcItems {
             EmcStacks.TIGHTLY_PACKED_UNORTHODOX_COAL,
             RecipeType.COMPRESSOR,
             new ItemStack[]{
-                GeneralItemStackUtils.getAsQuantity(EmcStacks.UNORTHODOX_COAL_DUST, 4)
+                GeneralItemStackUtils.getAsQuantity(EmcStacks.UNORTHODOX_COAL_DUST.asOne(), 4)
             }
         );
 
@@ -103,7 +103,7 @@ public class EmcItems {
             EmcStacks.UNORTHODOX_COAL_BLOCK,
             RecipeType.PRESSURE_CHAMBER,
             new ItemStack[]{
-                EmcStacks.TIGHTLY_PACKED_UNORTHODOX_COAL
+                EmcStacks.TIGHTLY_PACKED_UNORTHODOX_COAL.asOne()
             }
         );
 
@@ -112,9 +112,9 @@ public class EmcItems {
             EmcStacks.DEVIANT_COAL,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.UNORTHODOX_COAL_BLOCK, EmcStacks.UNORTHODOX_COAL_BLOCK, EmcStacks.UNORTHODOX_COAL_BLOCK,
-                EmcStacks.UNORTHODOX_COAL_BLOCK, EmcStacks.UNORTHODOX_COAL_BLOCK, EmcStacks.UNORTHODOX_COAL_BLOCK,
-                EmcStacks.UNORTHODOX_COAL_BLOCK, EmcStacks.UNORTHODOX_COAL_BLOCK, EmcStacks.UNORTHODOX_COAL_BLOCK
+                EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(), EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(), EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(),
+                EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(), EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(), EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(),
+                EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(), EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(), EmcStacks.UNORTHODOX_COAL_BLOCK.asOne()
             }
         );
 
@@ -123,7 +123,7 @@ public class EmcItems {
             EmcStacks.DEVIANT_COAL_DUST,
             RecipeType.ORE_CRUSHER,
             new ItemStack[]{
-                EmcStacks.DEVIANT_COAL
+                EmcStacks.DEVIANT_COAL.asOne()
             }
         );
 
@@ -132,7 +132,7 @@ public class EmcItems {
             EmcStacks.TIGHTLY_PACKED_DEVIANT_COAL,
             RecipeType.COMPRESSOR,
             new ItemStack[]{
-                GeneralItemStackUtils.getAsQuantity(EmcStacks.DEVIANT_COAL_DUST, 4)
+                GeneralItemStackUtils.getAsQuantity(EmcStacks.DEVIANT_COAL_DUST.asOne(), 4)
             }
         );
 
@@ -141,7 +141,7 @@ public class EmcItems {
             EmcStacks.DEVIANT_COAL_BLOCK,
             RecipeType.PRESSURE_CHAMBER,
             new ItemStack[]{
-                EmcStacks.TIGHTLY_PACKED_DEVIANT_COAL
+                EmcStacks.TIGHTLY_PACKED_DEVIANT_COAL.asOne()
             }
         );
 
@@ -150,9 +150,9 @@ public class EmcItems {
             EmcStacks.DIVERGENT_COAL,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.DEVIANT_COAL_BLOCK, EmcStacks.DEVIANT_COAL_BLOCK, EmcStacks.DEVIANT_COAL_BLOCK,
-                EmcStacks.DEVIANT_COAL_BLOCK, EmcStacks.DEVIANT_COAL_BLOCK, EmcStacks.DEVIANT_COAL_BLOCK,
-                EmcStacks.DEVIANT_COAL_BLOCK, EmcStacks.DEVIANT_COAL_BLOCK, EmcStacks.DEVIANT_COAL_BLOCK
+                EmcStacks.DEVIANT_COAL_BLOCK.asOne(), EmcStacks.DEVIANT_COAL_BLOCK.asOne(), EmcStacks.DEVIANT_COAL_BLOCK.asOne(),
+                EmcStacks.DEVIANT_COAL_BLOCK.asOne(), EmcStacks.DEVIANT_COAL_BLOCK.asOne(), EmcStacks.DEVIANT_COAL_BLOCK.asOne(),
+                EmcStacks.DEVIANT_COAL_BLOCK.asOne(), EmcStacks.DEVIANT_COAL_BLOCK.asOne(), EmcStacks.DEVIANT_COAL_BLOCK.asOne()
             }
         );
 
@@ -161,7 +161,7 @@ public class EmcItems {
             EmcStacks.DIVERGENT_COAL_DUST,
             RecipeType.ORE_CRUSHER,
             new ItemStack[]{
-                EmcStacks.DIVERGENT_COAL
+                EmcStacks.DIVERGENT_COAL.asOne()
             }
         );
 
@@ -170,7 +170,7 @@ public class EmcItems {
             EmcStacks.TIGHTLY_PACKED_DIVERGENT_COAL,
             RecipeType.COMPRESSOR,
             new ItemStack[]{
-                GeneralItemStackUtils.getAsQuantity(EmcStacks.DIVERGENT_COAL_DUST, 4)
+                GeneralItemStackUtils.getAsQuantity(EmcStacks.DIVERGENT_COAL_DUST.asOne(), 4)
             }
         );
 
@@ -179,7 +179,7 @@ public class EmcItems {
             EmcStacks.DIVERGENT_COAL_BLOCK,
             RecipeType.PRESSURE_CHAMBER,
             new ItemStack[]{
-                EmcStacks.TIGHTLY_PACKED_DIVERGENT_COAL
+                EmcStacks.TIGHTLY_PACKED_DIVERGENT_COAL.asOne()
             }
         );
 
@@ -188,9 +188,9 @@ public class EmcItems {
             EmcStacks.ANOMALOUS_COAL,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.DIVERGENT_COAL_BLOCK, EmcStacks.DIVERGENT_COAL_BLOCK, EmcStacks.DIVERGENT_COAL_BLOCK,
-                EmcStacks.DIVERGENT_COAL_BLOCK, EmcStacks.DIVERGENT_COAL_BLOCK, EmcStacks.DIVERGENT_COAL_BLOCK,
-                EmcStacks.DIVERGENT_COAL_BLOCK, EmcStacks.DIVERGENT_COAL_BLOCK, EmcStacks.DIVERGENT_COAL_BLOCK
+                EmcStacks.DIVERGENT_COAL_BLOCK.asOne(), EmcStacks.DIVERGENT_COAL_BLOCK.asOne(), EmcStacks.DIVERGENT_COAL_BLOCK.asOne(),
+                EmcStacks.DIVERGENT_COAL_BLOCK.asOne(), EmcStacks.DIVERGENT_COAL_BLOCK.asOne(), EmcStacks.DIVERGENT_COAL_BLOCK.asOne(),
+                EmcStacks.DIVERGENT_COAL_BLOCK.asOne(), EmcStacks.DIVERGENT_COAL_BLOCK.asOne(), EmcStacks.DIVERGENT_COAL_BLOCK.asOne()
             }
         );
 
@@ -199,7 +199,7 @@ public class EmcItems {
             EmcStacks.ANOMALOUS_COAL_DUST,
             RecipeType.ORE_CRUSHER,
             new ItemStack[]{
-                EmcStacks.ANOMALOUS_COAL
+                EmcStacks.ANOMALOUS_COAL.asOne()
             }
         );
 
@@ -208,7 +208,7 @@ public class EmcItems {
             EmcStacks.TIGHTLY_PACKED_ANOMALOUS_COAL,
             RecipeType.COMPRESSOR,
             new ItemStack[]{
-                GeneralItemStackUtils.getAsQuantity(EmcStacks.ANOMALOUS_COAL_DUST, 4)
+                GeneralItemStackUtils.getAsQuantity(EmcStacks.ANOMALOUS_COAL_DUST.asOne(), 4)
             }
         );
 
@@ -217,7 +217,7 @@ public class EmcItems {
             EmcStacks.ANOMALOUS_COAL_BLOCK,
             RecipeType.PRESSURE_CHAMBER,
             new ItemStack[]{
-                EmcStacks.TIGHTLY_PACKED_ANOMALOUS_COAL
+                EmcStacks.TIGHTLY_PACKED_ANOMALOUS_COAL.asOne()
             }
         );
 
@@ -226,9 +226,9 @@ public class EmcItems {
             EmcStacks.PERFECTED_COAL,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.ANOMALOUS_COAL_BLOCK, EmcStacks.ANOMALOUS_COAL_BLOCK, EmcStacks.ANOMALOUS_COAL_BLOCK,
-                EmcStacks.ANOMALOUS_COAL_BLOCK, EmcStacks.ANOMALOUS_COAL_BLOCK, EmcStacks.ANOMALOUS_COAL_BLOCK,
-                EmcStacks.ANOMALOUS_COAL_BLOCK, EmcStacks.ANOMALOUS_COAL_BLOCK, EmcStacks.ANOMALOUS_COAL_BLOCK
+                EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(), EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(), EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(),
+                EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(), EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(), EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(),
+                EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(), EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(), EmcStacks.ANOMALOUS_COAL_BLOCK.asOne()
             }
         );
 
@@ -241,9 +241,9 @@ public class EmcItems {
             EmcStacks.UNORTHODOX_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.UNORTHODOX_COAL, EmcStacks.UNORTHODOX_COAL, EmcStacks.UNORTHODOX_COAL,
-                EmcStacks.UNORTHODOX_COAL, SlimefunItems.GOLD_24K_BLOCK, EmcStacks.UNORTHODOX_COAL,
-                EmcStacks.UNORTHODOX_COAL, EmcStacks.UNORTHODOX_COAL, EmcStacks.UNORTHODOX_COAL
+                EmcStacks.UNORTHODOX_COAL.asOne(), EmcStacks.UNORTHODOX_COAL.asOne(), EmcStacks.UNORTHODOX_COAL.asOne(),
+                EmcStacks.UNORTHODOX_COAL.asOne(), SlimefunItems.GOLD_24K_BLOCK.asOne(), EmcStacks.UNORTHODOX_COAL.asOne(),
+                EmcStacks.UNORTHODOX_COAL.asOne(), EmcStacks.UNORTHODOX_COAL.asOne(), EmcStacks.UNORTHODOX_COAL.asOne()
             }
         );
 
@@ -252,9 +252,9 @@ public class EmcItems {
             EmcStacks.UNORTHODOX_MACHINE_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                SlimefunItems.SOLDER_INGOT, SlimefunItems.ENDER_RUNE, SlimefunItems.SOLDER_INGOT,
-                SlimefunItems.SOLDER_INGOT, EmcStacks.UNORTHODOX_FRAME, SlimefunItems.SOLDER_INGOT,
-                SlimefunItems.SOLDER_INGOT, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.SOLDER_INGOT
+                SlimefunItems.SOLDER_INGOT.asOne(), SlimefunItems.ENDER_RUNE.asOne(), SlimefunItems.SOLDER_INGOT.asOne(),
+                SlimefunItems.SOLDER_INGOT.asOne(), EmcStacks.UNORTHODOX_FRAME.asOne(), SlimefunItems.SOLDER_INGOT.asOne(),
+                SlimefunItems.SOLDER_INGOT.asOne(), SlimefunItems.MEDIUM_CAPACITOR.asOne(), SlimefunItems.SOLDER_INGOT.asOne()
             }
         );
 
@@ -263,9 +263,9 @@ public class EmcItems {
             EmcStacks.DEVIANT_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.DEVIANT_COAL, EmcStacks.DEVIANT_COAL, EmcStacks.DEVIANT_COAL,
-                EmcStacks.DEVIANT_COAL, EmcStacks.UNORTHODOX_FRAME, EmcStacks.DEVIANT_COAL,
-                EmcStacks.DEVIANT_COAL, EmcStacks.DEVIANT_COAL, EmcStacks.DEVIANT_COAL
+                EmcStacks.DEVIANT_COAL.asOne(), EmcStacks.DEVIANT_COAL.asOne(), EmcStacks.DEVIANT_COAL.asOne(),
+                EmcStacks.DEVIANT_COAL.asOne(), EmcStacks.UNORTHODOX_FRAME.asOne(), EmcStacks.DEVIANT_COAL.asOne(),
+                EmcStacks.DEVIANT_COAL.asOne(), EmcStacks.DEVIANT_COAL.asOne(), EmcStacks.DEVIANT_COAL.asOne()
             }
         );
 
@@ -274,9 +274,9 @@ public class EmcItems {
             EmcStacks.DEVIANT_MACHINE_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                SlimefunItems.DURALUMIN_INGOT, EmcStacks.UNORTHODOX_MACHINE_FRAME, SlimefunItems.DURALUMIN_INGOT,
-                SlimefunItems.DURALUMIN_INGOT, EmcStacks.DEVIANT_FRAME, SlimefunItems.DURALUMIN_INGOT,
-                SlimefunItems.DURALUMIN_INGOT, SlimefunItems.LARGE_CAPACITOR, SlimefunItems.DURALUMIN_INGOT
+                SlimefunItems.DURALUMIN_INGOT.asOne(), EmcStacks.UNORTHODOX_MACHINE_FRAME.asOne(), SlimefunItems.DURALUMIN_INGOT.asOne(),
+                SlimefunItems.DURALUMIN_INGOT.asOne(), EmcStacks.DEVIANT_FRAME.asOne(), SlimefunItems.DURALUMIN_INGOT.asOne(),
+                SlimefunItems.DURALUMIN_INGOT.asOne(), SlimefunItems.LARGE_CAPACITOR.asOne(), SlimefunItems.DURALUMIN_INGOT.asOne()
             }
         );
 
@@ -285,9 +285,9 @@ public class EmcItems {
             EmcStacks.DIVERGENT_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.DIVERGENT_COAL, EmcStacks.DIVERGENT_COAL, EmcStacks.DIVERGENT_COAL,
-                EmcStacks.DIVERGENT_COAL, EmcStacks.DEVIANT_FRAME, EmcStacks.DIVERGENT_COAL,
-                EmcStacks.DIVERGENT_COAL, EmcStacks.DIVERGENT_COAL, EmcStacks.DIVERGENT_COAL
+                EmcStacks.DIVERGENT_COAL.asOne(), EmcStacks.DIVERGENT_COAL.asOne(), EmcStacks.DIVERGENT_COAL.asOne(),
+                EmcStacks.DIVERGENT_COAL.asOne(), EmcStacks.DEVIANT_FRAME.asOne(), EmcStacks.DIVERGENT_COAL.asOne(),
+                EmcStacks.DIVERGENT_COAL.asOne(), EmcStacks.DIVERGENT_COAL.asOne(), EmcStacks.DIVERGENT_COAL.asOne()
             }
         );
 
@@ -296,9 +296,9 @@ public class EmcItems {
             EmcStacks.DIVERGENT_MACHINE_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                SlimefunItems.DAMASCUS_STEEL_INGOT, EmcStacks.DEVIANT_MACHINE_FRAME, SlimefunItems.DAMASCUS_STEEL_INGOT,
-                SlimefunItems.DAMASCUS_STEEL_INGOT, EmcStacks.DIVERGENT_FRAME, SlimefunItems.DAMASCUS_STEEL_INGOT,
-                SlimefunItems.DAMASCUS_STEEL_INGOT, SlimefunItems.BIG_CAPACITOR, SlimefunItems.DAMASCUS_STEEL_INGOT
+                SlimefunItems.DAMASCUS_STEEL_INGOT.asOne(), EmcStacks.DEVIANT_MACHINE_FRAME.asOne(), SlimefunItems.DAMASCUS_STEEL_INGOT.asOne(),
+                SlimefunItems.DAMASCUS_STEEL_INGOT.asOne(), EmcStacks.DIVERGENT_FRAME.asOne(), SlimefunItems.DAMASCUS_STEEL_INGOT.asOne(),
+                SlimefunItems.DAMASCUS_STEEL_INGOT.asOne(), SlimefunItems.BIG_CAPACITOR.asOne(), SlimefunItems.DAMASCUS_STEEL_INGOT.asOne()
             }
         );
 
@@ -307,9 +307,9 @@ public class EmcItems {
             EmcStacks.ANOMALOUS_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.ANOMALOUS_COAL, EmcStacks.ANOMALOUS_COAL, EmcStacks.ANOMALOUS_COAL,
-                EmcStacks.ANOMALOUS_COAL, EmcStacks.DIVERGENT_FRAME, EmcStacks.ANOMALOUS_COAL,
-                EmcStacks.ANOMALOUS_COAL, EmcStacks.ANOMALOUS_COAL, EmcStacks.ANOMALOUS_COAL
+                EmcStacks.ANOMALOUS_COAL.asOne(), EmcStacks.ANOMALOUS_COAL.asOne(), EmcStacks.ANOMALOUS_COAL.asOne(),
+                EmcStacks.ANOMALOUS_COAL.asOne(), EmcStacks.DIVERGENT_FRAME.asOne(), EmcStacks.ANOMALOUS_COAL.asOne(),
+                EmcStacks.ANOMALOUS_COAL.asOne(), EmcStacks.ANOMALOUS_COAL.asOne(), EmcStacks.ANOMALOUS_COAL.asOne()
             }
         );
 
@@ -318,9 +318,9 @@ public class EmcItems {
             EmcStacks.ANOMALOUS_MACHINE_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                SlimefunItems.CORINTHIAN_BRONZE_INGOT, EmcStacks.DIVERGENT_MACHINE_FRAME, SlimefunItems.CORINTHIAN_BRONZE_INGOT,
-                SlimefunItems.CORINTHIAN_BRONZE_INGOT, EmcStacks.ANOMALOUS_FRAME, SlimefunItems.CORINTHIAN_BRONZE_INGOT,
-                SlimefunItems.CORINTHIAN_BRONZE_INGOT, SlimefunItems.CARBONADO_EDGED_CAPACITOR, SlimefunItems.CORINTHIAN_BRONZE_INGOT
+                SlimefunItems.CORINTHIAN_BRONZE_INGOT.asOne(), EmcStacks.DIVERGENT_MACHINE_FRAME.asOne(), SlimefunItems.CORINTHIAN_BRONZE_INGOT.asOne(),
+                SlimefunItems.CORINTHIAN_BRONZE_INGOT.asOne(), EmcStacks.ANOMALOUS_FRAME.asOne(), SlimefunItems.CORINTHIAN_BRONZE_INGOT.asOne(),
+                SlimefunItems.CORINTHIAN_BRONZE_INGOT.asOne(), SlimefunItems.CARBONADO_EDGED_CAPACITOR.asOne(), SlimefunItems.CORINTHIAN_BRONZE_INGOT.asOne()
             }
         );
 
@@ -329,9 +329,9 @@ public class EmcItems {
             EmcStacks.PERFECTED_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.PERFECTED_COAL, EmcStacks.PERFECTED_COAL, EmcStacks.PERFECTED_COAL,
-                EmcStacks.PERFECTED_COAL, EmcStacks.ANOMALOUS_FRAME, EmcStacks.PERFECTED_COAL,
-                EmcStacks.PERFECTED_COAL, EmcStacks.PERFECTED_COAL, EmcStacks.PERFECTED_COAL
+                EmcStacks.PERFECTED_COAL.asOne(), EmcStacks.PERFECTED_COAL.asOne(), EmcStacks.PERFECTED_COAL.asOne(),
+                EmcStacks.PERFECTED_COAL.asOne(), EmcStacks.ANOMALOUS_FRAME.asOne(), EmcStacks.PERFECTED_COAL.asOne(),
+                EmcStacks.PERFECTED_COAL.asOne(), EmcStacks.PERFECTED_COAL.asOne(), EmcStacks.PERFECTED_COAL.asOne()
             }
         );
 
@@ -340,9 +340,9 @@ public class EmcItems {
             EmcStacks.PERFECTED_MACHINE_FRAME,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                SlimefunItems.REINFORCED_ALLOY_INGOT, EmcStacks.ANOMALOUS_MACHINE_FRAME, SlimefunItems.REINFORCED_ALLOY_INGOT,
-                SlimefunItems.REINFORCED_ALLOY_INGOT, EmcStacks.PERFECTED_FRAME, SlimefunItems.REINFORCED_ALLOY_INGOT,
-                SlimefunItems.REINFORCED_ALLOY_INGOT, SlimefunItems.ENERGIZED_CAPACITOR, SlimefunItems.REINFORCED_ALLOY_INGOT
+                SlimefunItems.REINFORCED_ALLOY_INGOT.asOne(), EmcStacks.ANOMALOUS_MACHINE_FRAME.asOne(), SlimefunItems.REINFORCED_ALLOY_INGOT.asOne(),
+                SlimefunItems.REINFORCED_ALLOY_INGOT.asOne(), EmcStacks.PERFECTED_FRAME.asOne(), SlimefunItems.REINFORCED_ALLOY_INGOT.asOne(),
+                SlimefunItems.REINFORCED_ALLOY_INGOT.asOne(), SlimefunItems.ENERGIZED_CAPACITOR.asOne(), SlimefunItems.REINFORCED_ALLOY_INGOT.asOne()
             }
         );
 
@@ -355,9 +355,9 @@ public class EmcItems {
             EmcStacks.EMC_DEMATERIALIZER_1,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.UNORTHODOX_COAL, SlimefunItems.PROGRAMMABLE_ANDROID_3_BUTCHER, EmcStacks.UNORTHODOX_COAL,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.UNORTHODOX_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.UNORTHODOX_COAL, SlimefunItems.ENERGY_REGULATOR, EmcStacks.UNORTHODOX_COAL
+                EmcStacks.UNORTHODOX_COAL.asOne(), SlimefunItems.PROGRAMMABLE_ANDROID_3_BUTCHER.asOne(), EmcStacks.UNORTHODOX_COAL.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.UNORTHODOX_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.UNORTHODOX_COAL.asOne(), SlimefunItems.ENERGY_REGULATOR.asOne(), EmcStacks.UNORTHODOX_COAL.asOne()
             },
             5,
             1000
@@ -368,9 +368,9 @@ public class EmcItems {
             EmcStacks.EMC_DEMATERIALIZER_2,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.DEVIANT_COAL, EmcStacks.EMC_DEMATERIALIZER_1, EmcStacks.DEVIANT_COAL,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.DEVIANT_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.DEVIANT_COAL, SlimefunItems.ENERGY_REGULATOR, EmcStacks.DEVIANT_COAL
+                EmcStacks.DEVIANT_COAL.asOne(), EmcStacks.EMC_DEMATERIALIZER_1.asOne(), EmcStacks.DEVIANT_COAL.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.DEVIANT_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.DEVIANT_COAL.asOne(), SlimefunItems.ENERGY_REGULATOR.asOne(), EmcStacks.DEVIANT_COAL.asOne()
             },
             4,
             10000
@@ -381,9 +381,9 @@ public class EmcItems {
             EmcStacks.EMC_DEMATERIALIZER_3,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.DIVERGENT_COAL, EmcStacks.EMC_DEMATERIALIZER_2, EmcStacks.DIVERGENT_COAL,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.DIVERGENT_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.DIVERGENT_COAL, SlimefunItems.ENERGY_REGULATOR, EmcStacks.DIVERGENT_COAL
+                EmcStacks.DIVERGENT_COAL.asOne(), EmcStacks.EMC_DEMATERIALIZER_2.asOne(), EmcStacks.DIVERGENT_COAL.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.DIVERGENT_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.DIVERGENT_COAL.asOne(), SlimefunItems.ENERGY_REGULATOR.asOne(), EmcStacks.DIVERGENT_COAL.asOne()
             },
             3,
             100000
@@ -394,9 +394,9 @@ public class EmcItems {
             EmcStacks.EMC_DEMATERIALIZER_4,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.ANOMALOUS_COAL, EmcStacks.EMC_DEMATERIALIZER_3, EmcStacks.ANOMALOUS_COAL,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.ANOMALOUS_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.ANOMALOUS_COAL, SlimefunItems.ENERGY_REGULATOR, EmcStacks.ANOMALOUS_COAL
+                EmcStacks.ANOMALOUS_COAL.asOne(), EmcStacks.EMC_DEMATERIALIZER_3.asOne(), EmcStacks.ANOMALOUS_COAL.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.ANOMALOUS_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.ANOMALOUS_COAL.asOne(), SlimefunItems.ENERGY_REGULATOR.asOne(), EmcStacks.ANOMALOUS_COAL.asOne()
             },
             2,
             1000000
@@ -407,9 +407,9 @@ public class EmcItems {
             EmcStacks.EMC_DEMATERIALIZER_5,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.PERFECTED_COAL, EmcStacks.EMC_DEMATERIALIZER_4, EmcStacks.PERFECTED_COAL,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.PERFECTED_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.PERFECTED_COAL, SlimefunItems.ENERGY_REGULATOR, EmcStacks.PERFECTED_COAL
+                EmcStacks.PERFECTED_COAL.asOne(), EmcStacks.EMC_DEMATERIALIZER_4.asOne(), EmcStacks.PERFECTED_COAL.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.PERFECTED_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.PERFECTED_COAL.asOne(), SlimefunItems.ENERGY_REGULATOR.asOne(), EmcStacks.PERFECTED_COAL.asOne()
             },
             1,
             10000000
@@ -420,9 +420,9 @@ public class EmcItems {
             EmcStacks.EMC_MATERIALIZER_1,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.UNORTHODOX_COAL_BLOCK, SlimefunItems.PROGRAMMABLE_ANDROID_3_FISHERMAN, EmcStacks.UNORTHODOX_COAL_BLOCK,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.UNORTHODOX_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.UNORTHODOX_COAL_BLOCK, SlimefunItems.POWER_CRYSTAL, EmcStacks.UNORTHODOX_COAL_BLOCK
+                EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(), SlimefunItems.PROGRAMMABLE_ANDROID_3_FISHERMAN.asOne(), EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.UNORTHODOX_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.UNORTHODOX_COAL_BLOCK.asOne(), SlimefunItems.POWER_CRYSTAL.asOne(), EmcStacks.UNORTHODOX_COAL_BLOCK.asOne()
             },
             5,
             1000
@@ -433,9 +433,9 @@ public class EmcItems {
             EmcStacks.EMC_MATERIALIZER_2,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.DEVIANT_COAL_BLOCK, EmcStacks.EMC_MATERIALIZER_1, EmcStacks.DEVIANT_COAL_BLOCK,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.DEVIANT_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.DEVIANT_COAL_BLOCK, SlimefunItems.POWER_CRYSTAL, EmcStacks.DEVIANT_COAL_BLOCK
+                EmcStacks.DEVIANT_COAL_BLOCK.asOne(), EmcStacks.EMC_MATERIALIZER_1.asOne(), EmcStacks.DEVIANT_COAL_BLOCK.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.DEVIANT_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.DEVIANT_COAL_BLOCK.asOne(), SlimefunItems.POWER_CRYSTAL.asOne(), EmcStacks.DEVIANT_COAL_BLOCK.asOne()
             },
             4,
             10000
@@ -446,9 +446,9 @@ public class EmcItems {
             EmcStacks.EMC_MATERIALIZER_3,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.DIVERGENT_COAL_BLOCK, EmcStacks.EMC_MATERIALIZER_2, EmcStacks.DIVERGENT_COAL_BLOCK,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.DIVERGENT_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.DIVERGENT_COAL_BLOCK, SlimefunItems.POWER_CRYSTAL, EmcStacks.DIVERGENT_COAL_BLOCK
+                EmcStacks.DIVERGENT_COAL_BLOCK.asOne(), EmcStacks.EMC_MATERIALIZER_2.asOne(), EmcStacks.DIVERGENT_COAL_BLOCK.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.DIVERGENT_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.DIVERGENT_COAL_BLOCK.asOne(), SlimefunItems.POWER_CRYSTAL.asOne(), EmcStacks.DIVERGENT_COAL_BLOCK.asOne()
             },
             3,
             100000
@@ -459,9 +459,9 @@ public class EmcItems {
             EmcStacks.EMC_MATERIALIZER_4,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.ANOMALOUS_COAL_BLOCK, EmcStacks.EMC_MATERIALIZER_3, EmcStacks.ANOMALOUS_COAL_BLOCK,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.ANOMALOUS_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.ANOMALOUS_COAL_BLOCK, SlimefunItems.POWER_CRYSTAL, EmcStacks.ANOMALOUS_COAL_BLOCK
+                EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(), EmcStacks.EMC_MATERIALIZER_3.asOne(), EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.ANOMALOUS_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.ANOMALOUS_COAL_BLOCK.asOne(), SlimefunItems.POWER_CRYSTAL.asOne(), EmcStacks.ANOMALOUS_COAL_BLOCK.asOne()
             },
             2,
             1000000
@@ -472,9 +472,9 @@ public class EmcItems {
             EmcStacks.EMC_MATERIALIZER_5,
             RecipeType.ENHANCED_CRAFTING_TABLE,
             new ItemStack[]{
-                EmcStacks.PERFECTED_COAL, EmcStacks.EMC_MATERIALIZER_4, EmcStacks.PERFECTED_COAL,
-                SlimefunItems.ANDROID_INTERFACE_ITEMS, EmcStacks.PERFECTED_MACHINE_FRAME, SlimefunItems.ANDROID_INTERFACE_ITEMS,
-                EmcStacks.PERFECTED_COAL, SlimefunItems.POWER_CRYSTAL, EmcStacks.PERFECTED_COAL
+                EmcStacks.PERFECTED_COAL.asOne(), EmcStacks.EMC_MATERIALIZER_4.asOne(), EmcStacks.PERFECTED_COAL.asOne(),
+                SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(), EmcStacks.PERFECTED_MACHINE_FRAME.asOne(), SlimefunItems.ANDROID_INTERFACE_ITEMS.asOne(),
+                EmcStacks.PERFECTED_COAL.asOne(), SlimefunItems.POWER_CRYSTAL.asOne(), EmcStacks.PERFECTED_COAL.asOne()
             },
             1,
             10000000
@@ -486,9 +486,9 @@ public class EmcItems {
                 EmcStacks.EMC_NETWORK_MATERIALIZER,
                 RecipeType.ENHANCED_CRAFTING_TABLE,
                 new ItemStack[]{
-                    NetworksSlimefunItemStacks.RADIOACTIVE_OPTIC_STAR, EmcStacks.EMC_MATERIALIZER_4, NetworksSlimefunItemStacks.RADIOACTIVE_OPTIC_STAR,
-                    NetworksSlimefunItemStacks.NETWORK_MONITOR, EmcStacks.EMC_MATERIALIZER_5, NetworksSlimefunItemStacks.NETWORK_MONITOR,
-                    NetworksSlimefunItemStacks.RADIOACTIVE_OPTIC_STAR, NetworksSlimefunItemStacks.EMPOWERED_AI_CORE, NetworksSlimefunItemStacks.RADIOACTIVE_OPTIC_STAR
+                    NetworksSlimefunItemStacks.RADIOACTIVE_OPTIC_STAR.asOne(), EmcStacks.EMC_MATERIALIZER_4.asOne(), NetworksSlimefunItemStacks.RADIOACTIVE_OPTIC_STAR.asOne(),
+                    NetworksSlimefunItemStacks.NETWORK_MONITOR.asOne(), EmcStacks.EMC_MATERIALIZER_5.asOne(), NetworksSlimefunItemStacks.NETWORK_MONITOR.asOne(),
+                    NetworksSlimefunItemStacks.RADIOACTIVE_OPTIC_STAR.asOne(), NetworksSlimefunItemStacks.EMPOWERED_AI_CORE.asOne(), NetworksSlimefunItemStacks.RADIOACTIVE_OPTIC_STAR.asOne()
                 },
                 1,
                 10000000

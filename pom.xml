@@ -14,7 +14,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.6.1</version>
                 <configuration>
                     <relocations>
                         <relocation>
@@ -55,10 +55,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
                 <configuration>
-                    <source>16</source>
-                    <target>16</target>
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -78,8 +77,8 @@
     </build>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <sonar.projectKey>EMCTech</sonar.projectKey>
         <sonar.organization>sefiraat</sonar.organization>
@@ -98,8 +97,8 @@
 
     <repositories>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <id>papermc</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
         <repository>
             <id>jitpack.io</id>
@@ -111,22 +110,22 @@
         </repository>
         <repository>
             <id>placeholderapi</id>
-            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+            <url>https://repo.extendedclip.com/releases/</url>
         </repository>
     </repositories>
 
     <dependencies>
         <!-- Core -->
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.19-R0.1-SNAPSHOT</version>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
+            <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.Slimefun</groupId>
+            <groupId>com.github.SlimeFun-Lab</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>b8f7dc</version>
+            <version>3ea21da</version>
             <scope>provided</scope>
         </dependency>
 
@@ -168,9 +167,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.Sefiraat</groupId>
+            <groupId>com.github.SlimeFun-Lab</groupId>
             <artifactId>DankTech2</artifactId>
-            <version>d2465ae845</version>
+            <version>f8d2537cf7</version>
         </dependency>
         <dependency>
             <groupId>com.github.Mooy1</groupId>
@@ -180,7 +179,7 @@
         <dependency>
             <groupId>me.clip</groupId>
             <artifactId>placeholderapi</artifactId>
-            <version>2.11.1</version>
+            <version>2.11.6</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

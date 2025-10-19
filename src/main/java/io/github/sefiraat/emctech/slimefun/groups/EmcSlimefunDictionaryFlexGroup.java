@@ -197,7 +197,7 @@ public class EmcSlimefunDictionaryFlexGroup extends FlexItemGroup {
             size
         ));
 
-        return new CustomItemStack(
+        return CustomItemStack.create(
             Material.TARGET,
             Theme.MAIN.getColor() + "Learned Items",
             lore

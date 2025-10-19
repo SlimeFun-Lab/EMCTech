@@ -16,7 +16,7 @@ public final class EmcTechItemGroups {
 
     public static final MainFlexGroup MAIN = new MainFlexGroup(
         Keys.newKey("main"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.WRITABLE_BOOK),
             Theme.MAIN.color("EMCTech")
         )
@@ -24,7 +24,7 @@ public final class EmcTechItemGroups {
 
     public static final DummyItemGroup MATERIALS = new DummyItemGroup(
         Keys.newKey("materials"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.COAL),
             Theme.MAIN.color("EMCTech Crafting Materials")
         )
@@ -32,7 +32,7 @@ public final class EmcTechItemGroups {
 
     public static final DummyItemGroup MACHINES = new DummyItemGroup(
         Keys.newKey("machines"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.BUBBLE_CORAL_BLOCK),
             Theme.MAIN.color("EMCTech Machinery")
         )
@@ -40,7 +40,7 @@ public final class EmcTechItemGroups {
 
     public static final EmcVanillaDictionaryFlexGroup DICTIONARY_VANILLA = new EmcVanillaDictionaryFlexGroup(
         Keys.newKey("dictionary-vanilla"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.FEATHER),
             Theme.MAIN.color("EMC Dictionary (Vanilla)")
         )
@@ -48,7 +48,7 @@ public final class EmcTechItemGroups {
 
     public static final EmcSlimefunDictionaryFlexGroup DICTIONARY_SLIMEFUN = new EmcSlimefunDictionaryFlexGroup(
         Keys.newKey("dictionary-slimefun"),
-        new CustomItemStack(
+        CustomItemStack.create(
             new ItemStack(Material.FEATHER),
             Theme.MAIN.color("EMC Dictionary (Slimefun)")
         )
