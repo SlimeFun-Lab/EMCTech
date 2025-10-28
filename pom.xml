@@ -6,7 +6,7 @@
 
     <groupId>io.github.sefiraat</groupId>
     <artifactId>EMCTech</artifactId>
-    <version>MODIFIED</version>
+    <version>4.1.0-UNOFFICIAL</version>
 
     <build>
         <finalName>${project.name} v${project.version}</finalName>
@@ -119,13 +119,13 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.21.1-R0.1-SNAPSHOT</version>
+            <version>1.21.10-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.github.SlimeFun-Lab</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>3ea21da</version>
+            <version>6d5694e</version>
             <scope>provided</scope>
         </dependency>
 
@@ -155,26 +155,26 @@
         <dependency>
             <groupId>com.github.simplix-softworks</groupId>
             <artifactId>SimplixStorage</artifactId>
-            <version>3.2.5</version>
+            <version>3.2.7</version>
             <scope>compile</scope>
         </dependency>
 
         <!-- Supported Plugins -->
         <dependency>
-            <groupId>dev.sefiraat</groupId>
-            <artifactId>networks</artifactId>
-            <version>1.0.0</version>
+            <groupId>com.github.SlimeFun-Lab</groupId>
+            <artifactId>Networks</artifactId>
+            <version>aa3acab913</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.github.SlimeFun-Lab</groupId>
             <artifactId>DankTech2</artifactId>
-            <version>f8d2537cf7</version>
+            <version>e5f0f5cea1</version>
         </dependency>
         <dependency>
-            <groupId>com.github.Mooy1</groupId>
+            <groupId>com.github.SlimeFun-Lab</groupId>
             <artifactId>InfinityExpansion</artifactId>
-            <version>1e83e7afa0</version>
+            <version>78b140c13f</version>
         </dependency>
         <dependency>
             <groupId>me.clip</groupId>
